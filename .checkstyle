@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="false" sync-formatter="false">
+  <fileset name="all" enabled="true" check-config-name="West Checks" local="false">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+	<file-match-pattern match-pattern="bin/.*" include-pattern="false"/>
+    <file-match-pattern match-pattern="gen/.*" include-pattern="false"/>
+  </fileset>
+  <filter name="FilesFromPackage" enabled="true">
+    <filter-data value="com/fedorvlasov/lazylist"/>
+	<filter-data value="org/jsharkey/android"/>
+	<filter-data value="com/mikeortiz/touch"/>
+  </filter>
+</fileset-config>

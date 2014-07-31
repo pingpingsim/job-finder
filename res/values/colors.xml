@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gradient_dark_orange">#F5672A</color>
+    <color name="gradient_light_orange">#F59D78</color>
+
+</resources>

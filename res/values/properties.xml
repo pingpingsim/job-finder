@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- AUTHENTIC JOB API -->
+  <string name="api_base_url">http://www.authenticjobs.com/api/?api_key="%1$s"&amp;method="%2$s"&amp;format="%3$s"</string>
+  <string name="api_key">116bc5730d4c0b4fd1a6a840544754d6</string>
+  <string name="api_format_json">json</string>
+  <string name="api_format_xml">rest</string>
+  <string name="api_company">aj.jobs.getCompanies</string>
+  <string name="api_company_type">aj.company_types.getList</string>
+  <string name="api_job">aj.jobs.get&amp;id="%1$s"</string>
+  <string name="api_job_category">aj.categories.getList</string>
+  <string name="api_job_type">aj.types.getList</string>
+  <string name="api_location">aj.jobs.getLocations</string>
+  <string name="api_search">aj.jobs.search&amp;category="%1$s"&amp;type="%2$s"&amp;sort="%3$s"&amp;company="%4$s"&amp;location="%5$s"&amp;telecommuting="%6$s"&amp;keywords="%7$s"&amp;begin_date="%8$s"&amp;end_date="%9$s"&amp;page="%10$s"&amp;perpage="%11$s"</string>
+</resources>

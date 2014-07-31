@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Job Listing -->
+    <string name="job_listing_title">Job Listing</string>
+    <string name="job_details_title">Job Details</string>
+    <string name="job_title">Title</string>
+    <string name="job_type">Job type</string>
+    <string name="job_company">Company</string>
+    <string name="job_location">Location</string>
+    <string name="job_perks">Perks</string>
+    <string name="job_how_to_apply">How to apply?</string>
+    <string name="job_relocation_assistance">Relocation assistance</string>
+    <string name="job_telecommuting">Telecommuting</string>
+    <string name="job_desc">Description</string>
+    <string name="job_category">Job Category</string>
+    <string name="job_date_posted">Date posted</string>
+    <string name="job_apply_url">Apply url</string>
+
+    <!-- Job Details -->
+    <string name="job_details_desc">Job Description</string>
+    <string name="job_details_perks">Perks</string>
+    <string name="job_details_type">Type</string>
+    <string name="job_details_category">Category</string>
+    <string name="job_details_telecommuting">Telecommuting</string>
+    <string name="job_details_relocation_assistance">Relocation Assistance</string>
+    <string name="job_details_company_profile">Company Profile</string>
+
+    <!-- Job Search -->
+    <string name="job_search">Job Search</string>
+    <string name="action_search">Search</string>
+
+    <!-- Others -->
+    <string name="semicolon_separator">: </string>
+    <string name="bundle_key_job">bundle_key_job</string>
+    <string name="bundle_key_job_items">bundle_key_job_items</string>
+
+</resources>

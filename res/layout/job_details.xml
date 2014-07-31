@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageview_company_logo"
+                android:layout_width="@dimen/image_size_large"
+                android:layout_height="@dimen/image_size_large"
+                android:contentDescription=""
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="@dimen/padding_medium"
+                android:paddingTop="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/textview_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:id="@+id/textview_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_small" />
+
+            <LinearLayout
+                android:id="@+id/linearlayout_telecommuting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageview_checked_telecommuting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/checked"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imageview_unchecked_telecommuting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/uncheck"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textview_telecommuting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/job_details_telecommuting"
+                    android:textSize="@dimen/text_size_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_relocation_assistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageview_checked_relocation_assistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/checked"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imageview_unchecked_relocation_assistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription=""
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/uncheck"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textview_relocation_assistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/job_details_relocation_assistance"
+                    android:textSize="@dimen/text_size_medium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textview_how_to_apply_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
+                android:text="@string/job_how_to_apply"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:id="@+id/textview_how_to_apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandable_listview_job_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3sp"
+        android:groupIndicator="@null" />
+
+</LinearLayout>
