@@ -117,6 +117,7 @@ public class JobSearchActivity extends BaseActivity {
 		JobSearchActivity.this.startActivity(intent);
 	}
 
+	@SuppressWarnings("deprecation")
 	private void triggerJobTypeRequest(Context context) {
 		final JobTypeRequest request = new JobTypeRequest(context);
 		this.getSpiceManager().getFromCache(JobTypeItemList.class,
@@ -157,6 +158,7 @@ public class JobSearchActivity extends BaseActivity {
 		}
 	}
 
+	@SuppressWarnings("deprecation")
 	private void triggerJobCategoryRequest(Context context) {
 		final JobCategoryRequest request = new JobCategoryRequest(context);
 		this.getSpiceManager().getFromCache(JobCategoryItemList.class,
